@@ -1,5 +1,6 @@
-# goit-markup-hw-06
+# goit-markup-hw-07
 
 What's new?
-- within the modal window added form application;
-- in the footer added input field and button.
+- BEM methodology applied;
+- code refactoring performed;
+- SASS integrated and css files have been substituted by scss files.

@@ -1,0 +1,75 @@
+/* content within cards with team on the main page */
+.team {
+  background-color: var(--bg-color-light);
+
+  &__card {
+  background-color: var(--basic-color);
+  margin-right: 30px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-bottom: 1px solid var(--border-color);
+  border-radius: 0px 0px 4px 4px;
+
+  &:last-child {
+  margin-right: 0;
+}
+}
+  &__teammate {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+  &__list {
+  display: flex;
+  justify-content: center;
+}
+  &__title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-align: center;
+  margin-bottom: 10px;
+}
+  &__paragraph {
+  color: var(--secondary-text-color);
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-align: center;
+  margin-bottom: 16px;
+}
+  &__socials-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  &__socials-link {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+
+  transition: background-color var(--transition-duration) var(--transition-timing-function);
+
+    &:hover,
+    &:focus {
+      background-color: var(--accent-color);
+    }
+}
+  &__socials-icon {
+  fill: var(--social-icons-color);
+
+  transition: fill var(--transition-duration) var(--transition-timing-function);
+}
+  &__socials-item:not(:last-child) {
+  margin-right: 10px;
+}
+}
+
+.team__socials-link:hover .team__socials-icon,
+.team__socials-link:focus .team__socials-icon {
+  fill: var(--basic-color);
+}

@@ -1,0 +1,26 @@
+/* header */
+
+.page-header {
+  border-bottom: 1px solid var(--border-color);
+}
+
+.header-container__logo {
+  color: var(--accent-color);
+  font-family: var(--logo-font-family);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  margin-right: 93px;
+
+  &--black {
+  color: var(--main-text-color);
+  margin-right: 0;
+}
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
