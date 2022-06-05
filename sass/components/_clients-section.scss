@@ -1,22 +1,21 @@
 /* cleints and logos */
 
-.client__list {
+.clients {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
 
-.client__item {
+  &__item {
   width: 170px;
   height: 92px;
   margin-right: var(--margin-right);
 
   &:last-child {
   margin-right: 0;
-}
-}
-
-.client__link {
+  }
+  }
+  
+  &__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -31,17 +30,18 @@
   &:focus {
     border-color: var(--accent-color);
 
-    & .client__icon {
+    .clients__icon {
       fill: var(--accent-color);
     }
   }
-}
+  }
 
-.client__icon {
+  &__icon {
   display: flex;
   justify-content: center;
   align-items: center;
   fill: rgba(175, 177, 184, 1);
 
   transition: fill var(--transition-duration) var(--transition-timing-function);
+  }
 }

@@ -8,7 +8,7 @@
   margin-left: calc(-1 * var(--cards-list-gap));
   margin-top: calc(-1 * var(--cards-list-gap));
 
-  & .card__item {
+  .card__item {
   flex-basis: calc(100% / 3 - var(--cards-list-gap));
   margin-left: var(--cards-list-gap);
   margin-top: var(--cards-list-gap);
@@ -27,7 +27,7 @@
     0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 
-    & .card__overlay {
+    .card__overlay {
       transform: translateY(0);
     }
   }

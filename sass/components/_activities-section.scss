@@ -1,11 +1,11 @@
 /* actifities (cards) on the main page */
-.activities {
+.section--nopadding-top {
   padding-top: 0;
-
-  &__cards {
-  display: flex;
-  justify-content: center;
 }
+
+.activities {
+    display: flex;
+    justify-content: center;
 
   &__item {
   position: relative;
@@ -15,7 +15,6 @@
   margin-right: 0;
 }
 }
-
   &__text {
   position: absolute;
   content: "";

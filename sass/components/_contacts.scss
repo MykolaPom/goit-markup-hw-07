@@ -3,7 +3,7 @@
   display: flex;
   margin-left: auto;
 
-  &__contact {
+  &__item {
   margin-right: var(--margin-right);
 
   &:last-child {
@@ -36,7 +36,6 @@
   transition: fill var(--transition-duration) var(--transition-timing-function);
 }
 }
-
 .contact-group__link:hover .contact-group__icon,
 .contact-group__link:focus .contact-group__icon {
   fill: var(--accent-color);

@@ -43,7 +43,8 @@
 
   transition: background-color var(--transition-duration) var(--transition-timing-function);
 
-    &:hover {
+    &:hover,
+    &:focus {
     background-color: #188CE8;
     }
   }

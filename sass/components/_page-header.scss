@@ -1,10 +1,10 @@
 /* header */
 
-.page-header {
+.header {
   border-bottom: 1px solid var(--border-color);
 }
 
-.header-container__logo {
+.logo {
   color: var(--accent-color);
   font-family: var(--logo-font-family);
   font-weight: 700;
@@ -13,14 +13,14 @@
   letter-spacing: 0.03em;
   text-decoration: none;
   margin-right: 93px;
+}
 
-  &--black {
+.logo__black {
   color: var(--main-text-color);
   margin-right: 0;
 }
-}
 
-.header-container {
+.header__container {
   display: flex;
   align-items: center;
 }
